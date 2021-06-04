@@ -13,3 +13,9 @@ def prefix_words(prefix, words):
       lis.append(i)
   return lis
 print(prefix_words("b" ,["banana", "binary", "carrot", "bit", "boar"]))
+
+def suffix_words(suffix,word):
+  if word.endswith(suffix):
+    print("Ends with {}").format(suffix)\
+suffix="ly"
+word="quickly"
